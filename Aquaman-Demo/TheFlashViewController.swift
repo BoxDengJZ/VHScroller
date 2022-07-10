@@ -1,10 +1,3 @@
-//
-//  TheFlashViewController.swift
-//  Aquaman-Demo
-//
-//  Created by bawn on 2019/9/5.
-//  Copyright © 2019 bawn. All rights reserved.
-//
 
 import UIKit
 
