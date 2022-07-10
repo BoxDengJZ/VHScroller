@@ -113,12 +113,3 @@ override func pageController(_ pageController: AquamanPageViewController, didDis
 ```
 
 由于 menuView 和 pageController 不存在强关联关系，所以在滚动的时候需要更新 menuView 布局，在显示相应的 viewController 的时候需要检查 menuView 的状态，具体参考 demo
-
-## Examples
-
-Follow these 4 steps to run Example project:
-
-1. Clone Aquaman repository
-2. Run the `pod install` command
-3. Open Aquaman workspace
-4. Run the Aquaman-Demo project.
