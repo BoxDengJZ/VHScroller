@@ -1,28 +1,24 @@
 PODS:
-  - Aquaman (0.1.4)
   - MJRefresh (3.5.0)
   - SnapKit (4.2.0)
   - Trident (0.5.0)
 
 DEPENDENCIES:
-  - Aquaman
   - MJRefresh
   - SnapKit (= 4.2.0)
   - Trident
 
 SPEC REPOS:
   trunk:
-    - Aquaman
     - MJRefresh
     - SnapKit
     - Trident
 
 SPEC CHECKSUMS:
-  Aquaman: 5afea947ceb8f7abd18d364ec0210a8d5ace669a
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   Trident: 50da016b492e7cdabf95b405fe33f270f07b8236
 
-PODFILE CHECKSUM: 1aaa087638bad99d6df53f33f07bbdff35cd1cd9
+PODFILE CHECKSUM: d774be588652c7d2e0ba37ed3e72799164c6d2b7
 
 COCOAPODS: 1.11.2

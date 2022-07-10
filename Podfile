@@ -11,7 +11,6 @@ target 'Aquaman-Demo' do
   pod 'MJRefresh'
   
   pod 'Trident'
-  pod 'Aquaman'
 # Pods for Aquaman-Demo
 
 end

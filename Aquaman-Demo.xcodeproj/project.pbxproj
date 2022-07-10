@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26CC8CB5287B0CB500DA49F4 /* AquamanPageViewController+Additional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CC8CAB287B0CB500DA49F4 /* AquamanPageViewController+Additional.swift */; };
+		26CC8CB6287B0CB500DA49F4 /* AquamanChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CC8CAC287B0CB500DA49F4 /* AquamanChildViewController.swift */; };
+		26CC8CB7287B0CB500DA49F4 /* AquamanContainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CC8CAE287B0CB500DA49F4 /* AquamanContainView.swift */; };
+		26CC8CB8287B0CB500DA49F4 /* NSCache+Additional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CC8CAF287B0CB500DA49F4 /* NSCache+Additional.swift */; };
+		26CC8CB9287B0CB500DA49F4 /* UIViewController+Additional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CC8CB0287B0CB500DA49F4 /* UIViewController+Additional.swift */; };
+		26CC8CBA287B0CB500DA49F4 /* UIScrollView+Additional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CC8CB1287B0CB500DA49F4 /* UIScrollView+Additional.swift */; };
+		26CC8CBB287B0CB500DA49F4 /* AquaMainScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CC8CB2287B0CB500DA49F4 /* AquaMainScrollView.swift */; };
+		26CC8CBC287B0CB500DA49F4 /* AquamanProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CC8CB3287B0CB500DA49F4 /* AquamanProtocol.swift */; };
+		26CC8CBD287B0CB500DA49F4 /* AquamanPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CC8CB4287B0CB500DA49F4 /* AquamanPageViewController.swift */; };
 		3E70E23AE12A03F719A61B86 /* Pods_Aquaman_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1818A6060E4BCD927F3FAB53 /* Pods_Aquaman_Demo.framework */; };
 		DF7AC0272320BB9E002E595E /* TheFlashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7AC0262320BB9E002E595E /* TheFlashViewController.swift */; };
 		DF7F9F2121E37EEB000F4317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7F9F2021E37EEB000F4317 /* AppDelegate.swift */; };
@@ -36,6 +45,16 @@
 
 /* Begin PBXFileReference section */
 		1818A6060E4BCD927F3FAB53 /* Pods_Aquaman_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aquaman_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CC8CAB287B0CB500DA49F4 /* AquamanPageViewController+Additional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AquamanPageViewController+Additional.swift"; sourceTree = "<group>"; };
+		26CC8CAC287B0CB500DA49F4 /* AquamanChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquamanChildViewController.swift; sourceTree = "<group>"; };
+		26CC8CAD287B0CB500DA49F4 /* Aquaman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aquaman.h; sourceTree = "<group>"; };
+		26CC8CAE287B0CB500DA49F4 /* AquamanContainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquamanContainView.swift; sourceTree = "<group>"; };
+		26CC8CAF287B0CB500DA49F4 /* NSCache+Additional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSCache+Additional.swift"; sourceTree = "<group>"; };
+		26CC8CB0287B0CB500DA49F4 /* UIViewController+Additional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additional.swift"; sourceTree = "<group>"; };
+		26CC8CB1287B0CB500DA49F4 /* UIScrollView+Additional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Additional.swift"; sourceTree = "<group>"; };
+		26CC8CB2287B0CB500DA49F4 /* AquaMainScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquaMainScrollView.swift; sourceTree = "<group>"; };
+		26CC8CB3287B0CB500DA49F4 /* AquamanProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquamanProtocol.swift; sourceTree = "<group>"; };
+		26CC8CB4287B0CB500DA49F4 /* AquamanPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquamanPageViewController.swift; sourceTree = "<group>"; };
 		3A86685D0616AED53669BBEF /* Pods-Aquaman-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aquaman-Demo.release.xcconfig"; path = "Target Support Files/Pods-Aquaman-Demo/Pods-Aquaman-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		DF457BB223B6131F00708C49 /* Aquaman_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aquaman_DemoUITests.swift; sourceTree = "<group>"; };
 		DF457BB423B6131F00708C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26CC8CAA287B0CB500DA49F4 /* Aquaman */ = {
+			isa = PBXGroup;
+			children = (
+				26CC8CAB287B0CB500DA49F4 /* AquamanPageViewController+Additional.swift */,
+				26CC8CAC287B0CB500DA49F4 /* AquamanChildViewController.swift */,
+				26CC8CAD287B0CB500DA49F4 /* Aquaman.h */,
+				26CC8CAE287B0CB500DA49F4 /* AquamanContainView.swift */,
+				26CC8CAF287B0CB500DA49F4 /* NSCache+Additional.swift */,
+				26CC8CB0287B0CB500DA49F4 /* UIViewController+Additional.swift */,
+				26CC8CB1287B0CB500DA49F4 /* UIScrollView+Additional.swift */,
+				26CC8CB2287B0CB500DA49F4 /* AquaMainScrollView.swift */,
+				26CC8CB3287B0CB500DA49F4 /* AquamanProtocol.swift */,
+				26CC8CB4287B0CB500DA49F4 /* AquamanPageViewController.swift */,
+			);
+			path = Aquaman;
+			sourceTree = "<group>";
+		};
 		26D8BFA01A1516C315CC832E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +153,7 @@
 		DF7F9F1F21E37EEB000F4317 /* Aquaman-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				26CC8CAA287B0CB500DA49F4 /* Aquaman */,
 				DF7F9F2021E37EEB000F4317 /* AppDelegate.swift */,
 				DF7F9F3921E37FA9000F4317 /* PageViewController.swift */,
 				DF7F9F3821E37FA9000F4317 /* SupermanViewController.swift */,
@@ -253,11 +290,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26CC8CB8287B0CB500DA49F4 /* NSCache+Additional.swift in Sources */,
 				DF7F9F4521E37FAA000F4317 /* PageViewController.swift in Sources */,
 				DF7AC0272320BB9E002E595E /* TheFlashViewController.swift in Sources */,
+				26CC8CB9287B0CB500DA49F4 /* UIViewController+Additional.swift in Sources */,
 				DF7F9F4721E37FAA000F4317 /* WonderWomanViewController.swift in Sources */,
+				26CC8CB5287B0CB500DA49F4 /* AquamanPageViewController+Additional.swift in Sources */,
+				26CC8CBC287B0CB500DA49F4 /* AquamanProtocol.swift in Sources */,
+				26CC8CBA287B0CB500DA49F4 /* UIScrollView+Additional.swift in Sources */,
+				26CC8CBD287B0CB500DA49F4 /* AquamanPageViewController.swift in Sources */,
+				26CC8CB6287B0CB500DA49F4 /* AquamanChildViewController.swift in Sources */,
+				26CC8CBB287B0CB500DA49F4 /* AquaMainScrollView.swift in Sources */,
 				DF7F9F3E21E37FAA000F4317 /* HeaderView.swift in Sources */,
 				DFD4116121E84011006E8D77 /* ViewController.swift in Sources */,
+				26CC8CB7287B0CB500DA49F4 /* AquamanContainView.swift in Sources */,
 				DF7F9F2121E37EEB000F4317 /* AppDelegate.swift in Sources */,
 				DF7F9F4321E37FAA000F4317 /* BatmanViewController.swift in Sources */,
 				DF7F9F4421E37FAA000F4317 /* SupermanViewController.swift in Sources */,
