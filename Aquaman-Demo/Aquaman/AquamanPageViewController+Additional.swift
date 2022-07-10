@@ -78,7 +78,6 @@ extension AquamanPageViewController: UIScrollViewDelegate {
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         
         if scrollView == mainScrollView {
-            pageController(self, mainScrollViewDidScroll: scrollView)
             let offsetY = scrollView.contentOffset.y
             if offsetY >= sillValue {
                 scrollView.contentOffset = CGPoint(x: 0, y: sillValue)
