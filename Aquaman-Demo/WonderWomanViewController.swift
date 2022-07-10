@@ -24,7 +24,7 @@
 //  THE SOFTWARE.
 
 import UIKit
-import Aquaman
+
 
 class WonderWomanViewController: UIViewController, AquamanChildViewController {
 

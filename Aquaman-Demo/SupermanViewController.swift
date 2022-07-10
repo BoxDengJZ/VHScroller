@@ -24,7 +24,7 @@
 //  THE SOFTWARE.
 
 import UIKit
-import Aquaman
+
 
 class SupermanViewController: UIViewController, AquamanChildViewController {
     @IBOutlet weak var tableView: UITableView!
@@ -61,7 +61,7 @@ extension SupermanViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
-        guard let pageViewController = parent as? PageViewController else {
+        guard let pageViewControllerXX = parent as? PageViewController else {
             return
         }
         
@@ -69,17 +69,17 @@ extension SupermanViewController: UITableViewDelegate, UITableViewDataSource {
             
             tableView.isUserInteractionEnabled = false
             var array = [250, 80, 150, 0]
-            let headerViewHeight = pageViewController.headerViewHeight
+            let headerViewHeight = pageViewControllerXX.headerViewHeight
             array.removeAll(where: {$0 == Int(headerViewHeight)})
-            pageViewController.headerViewHeight = CGFloat(array.randomElement()!)
+            pageViewControllerXX.headerViewHeight = CGFloat(array.randomElement()!)
             
-            pageViewController.updateHeaderViewHeight(animated: true,
+            pageViewControllerXX.updateHeaderViewHeight(animated: true,
                                                       duration: 0.25) { (finish) in
                 tableView.isUserInteractionEnabled = true
             }
         } else if indexPath.row == 1 {
             
-            pageViewController.setSelect(index: pageViewController.currentIndex + 1,
+            pageViewControllerXX.setSelect(index: pageViewControllerXX.currentIndex + 1,
                                          animation: [true, false].randomElement()!)
         } else {
             navigationController?.popViewController(animated: true)
