@@ -2,7 +2,7 @@
 import Foundation
 import UIKit
 
-protocol AMPageControllerDataSource: class {
+protocol AMPageControllerDataSource: AnyObject {
     
     func pageController(_ pageController: AquamanPageViewController, viewControllerAt index: Int) -> (UIViewController & AquamanChildViewController)
     func numberOfViewControllers(in pageController: AquamanPageViewController) -> Int
@@ -19,7 +19,7 @@ protocol AMPageControllerDataSource: class {
     func originIndexFor(_ pageController: AquamanPageViewController) -> Int
 }
 
-protocol AMPageControllerDelegate: class {
+protocol AMPageControllerDelegate: AnyObject {
     
     /// Any offset changes in pageController's mainScrollView
     ///
