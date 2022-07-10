@@ -47,7 +47,6 @@
 		1818A6060E4BCD927F3FAB53 /* Pods_Aquaman_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aquaman_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26CC8CAB287B0CB500DA49F4 /* AquamanPageViewController+Additional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AquamanPageViewController+Additional.swift"; sourceTree = "<group>"; };
 		26CC8CAC287B0CB500DA49F4 /* AquamanChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquamanChildViewController.swift; sourceTree = "<group>"; };
-		26CC8CAD287B0CB500DA49F4 /* Aquaman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aquaman.h; sourceTree = "<group>"; };
 		26CC8CAE287B0CB500DA49F4 /* AquamanContainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquamanContainView.swift; sourceTree = "<group>"; };
 		26CC8CAF287B0CB500DA49F4 /* NSCache+Additional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSCache+Additional.swift"; sourceTree = "<group>"; };
 		26CC8CB0287B0CB500DA49F4 /* UIViewController+Additional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additional.swift"; sourceTree = "<group>"; };
@@ -92,7 +91,6 @@
 			children = (
 				26CC8CAB287B0CB500DA49F4 /* AquamanPageViewController+Additional.swift */,
 				26CC8CAC287B0CB500DA49F4 /* AquamanChildViewController.swift */,
-				26CC8CAD287B0CB500DA49F4 /* Aquaman.h */,
 				26CC8CAE287B0CB500DA49F4 /* AquamanContainView.swift */,
 				26CC8CAF287B0CB500DA49F4 /* NSCache+Additional.swift */,
 				26CC8CB0287B0CB500DA49F4 /* UIViewController+Additional.swift */,
