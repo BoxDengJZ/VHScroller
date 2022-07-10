@@ -86,12 +86,10 @@ extension AquamanPageViewController: UIScrollViewDelegate {
                 scrollView.am_isCanScroll = false
                 pageController(self, menuView: !scrollView.am_isCanScroll)
             } else {
-                
-                if scrollView.am_isCanScroll == false {
-                    pageController(self, menuView: true)
+                let notScroll = (scrollView.am_isCanScroll == false)
+                pageController(self, menuView: notScroll)
+                if notScroll{
                     scrollView.contentOffset = CGPoint(x: 0, y: sillValue)
-                } else {
-                    pageController(self, menuView: false)
                 }
             }
         } else {
