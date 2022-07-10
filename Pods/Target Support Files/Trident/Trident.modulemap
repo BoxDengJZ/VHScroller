@@ -1,0 +1,6 @@
+framework module Trident {
+  umbrella header "Trident-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Aquaman-Demo/Pods-Aquaman-Demo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Aquaman/Aquaman.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/Trident/Trident.framework
