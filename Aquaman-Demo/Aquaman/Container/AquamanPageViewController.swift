@@ -436,7 +436,12 @@ open class AquamanPageViewController: UIViewController, AMPageControllerDataSour
 
 // 需要的时候，激活
 
+// -- --
 
+
+// iOS , event forward
+
+// 事件转发
 
 // -- --
 
