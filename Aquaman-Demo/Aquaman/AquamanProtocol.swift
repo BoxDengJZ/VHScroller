@@ -35,14 +35,6 @@ protocol AMPageControllerDelegate: AnyObject {
     ///   - scrollView: contentScrollView
     func pageController(_ pageController: AquamanPageViewController, contentScrollViewDidScroll scrollView: UIScrollView)
     
-    /// Method call when viewController will cache
-    ///
-    /// - Parameters:
-    ///   - pageController: AquamanPageViewController
-    ///   - viewController: target viewController
-    ///   - index: target viewController's index
-    func pageController(_ pageController: AquamanPageViewController, willCache viewController: (UIViewController & AquamanChildViewController), forItemAt index: Int)
-    
     
     /// Method call when viewController did display
     ///

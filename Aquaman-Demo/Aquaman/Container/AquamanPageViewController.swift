@@ -358,7 +358,6 @@ open class AquamanPageViewController: UIViewController, AMPageControllerDataSour
         }
         viewController.clearFromParent()
         if memoryCache[index] == nil {
-            pageController(self, willCache: viewController, forItemAt: index)
             memoryCache[index] = viewController
         }
     }
@@ -416,10 +415,6 @@ open class AquamanPageViewController: UIViewController, AMPageControllerDataSour
     }
     
     open func pageController(_ pageController: AquamanPageViewController, contentScrollViewDidScroll scrollView: UIScrollView) {
-        
-    }
-    
-    open func pageController(_ pageController: AquamanPageViewController, willCache viewController: (UIViewController & AquamanChildViewController), forItemAt index: Int) {
         
     }
     
