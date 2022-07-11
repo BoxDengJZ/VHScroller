@@ -108,10 +108,9 @@ class PageViewController: AquamanPageViewController {
         switch indexPath.row {
         case 0:
             return 0
-        case 1:
-            return 1
         default:
-            return 0
+            // 1
+            return 1
         }
     }
     
@@ -132,10 +131,6 @@ class PageViewController: AquamanPageViewController {
         menuView.updateLayout(scrollView)
     }
     
-    override func pageController(_ pageController: AquamanPageViewController,
-                                 contentScrollViewDidEndScroll scrollView: UIScrollView) {
-        
-    }
     
     override func pageController(_ pageController: AquamanPageViewController, menuView isAdsorption: Bool) {
         menuView.backgroundColor = isAdsorption ? .red : .white

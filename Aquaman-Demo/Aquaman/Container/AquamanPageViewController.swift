@@ -382,7 +382,6 @@ open class AquamanPageViewController: UIViewController, AMPageControllerDataSour
         let offsetX = scrollView.contentOffset.x
         let index = Int(offsetX / scrollViewWidth)
         didDisplayViewController(at: index)
-        pageController(self, contentScrollViewDidEndScroll: contentScrollView)
     }
     
     
@@ -395,36 +394,27 @@ open class AquamanPageViewController: UIViewController, AMPageControllerDataSour
     }
     
     open func headerViewFor(_ pageController: AquamanPageViewController) -> UIView {
-        assertionFailure("Sub-class must implement the AMPageControllerDataSource method")
-        return UIView()
+        fatalError("Sub-class must implement the AMPageControllerDataSource method")
     }
     
     open func headerViewHeightFor(_ pageController: AquamanPageViewController) -> CGFloat {
-        assertionFailure("Sub-class must implement the AMPageControllerDataSource method")
-        return 0
+        fatalError("Sub-class must implement the AMPageControllerDataSource method")
     }
     
     open func menuViewFor(_ pageController: AquamanPageViewController) -> UIView {
-        assertionFailure("Sub-class must implement the AMPageControllerDataSource method")
-        return UIView()
+        fatalError("Sub-class must implement the AMPageControllerDataSource method")
     }
     
     open func menuViewHeightFor(_ pageController: AquamanPageViewController) -> CGFloat {
-        assertionFailure("Sub-class must implement the AMPageControllerDataSource method")
-        return 0
+        fatalError("Sub-class must implement the AMPageControllerDataSource method")
     }
     
     open func originIndexFor(_ pageController: AquamanPageViewController) -> Int {
-        return 0
+        fatalError("Sub-class must implement the AMPageControllerDataSource method")
     }
     
     open func menuViewPinHeightFor(_ pageController: AquamanPageViewController) -> CGFloat {
-        return 0
-    }
-    
-    
-    open func pageController(_ pageController: AquamanPageViewController, contentScrollViewDidEndScroll scrollView: UIScrollView) {
-        
+        fatalError("Sub-class must implement the AMPageControllerDataSource method")
     }
     
     open func pageController(_ pageController: AquamanPageViewController, contentScrollViewDidScroll scrollView: UIScrollView) {

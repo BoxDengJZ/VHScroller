@@ -13,7 +13,12 @@ protocol AMPageControllerDataSource: AnyObject {
     func headerViewHeightFor(_ pageController: AquamanPageViewController) -> CGFloat
     func menuViewFor(_ pageController: AquamanPageViewController) -> UIView
     func menuViewHeightFor(_ pageController: AquamanPageViewController) -> CGFloat
+    
+    
+    
     func menuViewPinHeightFor(_ pageController: AquamanPageViewController) -> CGFloat
+    
+    
     
     /// The index of the controller displayed by default. You should have menview ready before setting this value
     ///
@@ -23,15 +28,6 @@ protocol AMPageControllerDataSource: AnyObject {
 }
 
 protocol AMPageControllerDelegate: AnyObject {
-    
-    /// Method call when contentScrollView did end scroll
-    ///
-    /// - Parameters:
-    ///   - pageController: AquamanPageViewController
-    ///   - scrollView: contentScrollView
-    func pageController(_ pageController: AquamanPageViewController, contentScrollViewDidEndScroll scrollView: UIScrollView)
-    
-    
     /// Any offset changes in pageController's contentScrollView
     ///
     /// - Parameters:
