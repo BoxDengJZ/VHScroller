@@ -317,8 +317,6 @@ open class AquamanPageViewController: UIViewController, AMPageControllerDataSour
         guard let targetViewController = viewController else {
             return
         }
-        pageController(self, willDisplay: targetViewController, forItemAt: index)
-        
         addChild(targetViewController)
         targetViewController.beginAppearanceTransition(true, animated: false)
         containView.addSubview(targetViewController.view)
@@ -422,10 +420,6 @@ open class AquamanPageViewController: UIViewController, AMPageControllerDataSour
     }
     
     open func pageController(_ pageController: AquamanPageViewController, willCache viewController: (UIViewController & AquamanChildViewController), forItemAt index: Int) {
-        
-    }
-    
-    open func pageController(_ pageController: AquamanPageViewController, willDisplay viewController: (UIViewController & AquamanChildViewController), forItemAt index: Int) {
         
     }
     

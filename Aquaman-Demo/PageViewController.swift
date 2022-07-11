@@ -136,10 +136,6 @@ class PageViewController: AquamanPageViewController {
         menuView.backgroundColor = isAdsorption ? .red : .white
     }
     
-    
-    override func pageController(_ pageController: AquamanPageViewController, willDisplay viewController: (UIViewController & AquamanChildViewController), forItemAt index: Int) {
-    }
-    
     override func pageController(_ pageController: AquamanPageViewController, didDisplay viewController: (UIViewController & AquamanChildViewController), forItemAt index: Int) {
         menuView.checkState(animation: true)
     }
@@ -148,9 +144,8 @@ class PageViewController: AquamanPageViewController {
         switch indexPath.row {
         case 0:
             return UIEdgeInsets(top: -UIApplication.shared.statusBarFrame.height, left: 0, bottom: 0, right: 0)
-        case 1:
-            return .zero
         default:
+            // row 1
             return .zero
         }
     }
