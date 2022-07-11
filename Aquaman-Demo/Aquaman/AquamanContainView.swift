@@ -2,7 +2,7 @@
 import UIKit
 
 class AquamanContainView: UIView {
-    weak var viewController: (UIViewController & AquamanChildViewController)?
+    weak var viewControllerCC: (UIViewController & AquamanChildViewController)?
     var isEmpty: Bool {
         return subviews.isEmpty
     }

@@ -103,7 +103,7 @@ open class AquamanPageViewController: UIViewController, AMPageControllerDataSour
                 return
         }
         let containView = containViews[index]
-        currentViewController = containView.viewController
+        currentViewController = containView.viewControllerCC
         currentChildScrollView = currentViewController?.aquamanChildScrollView()
         currentIndex = index
         
@@ -116,7 +116,7 @@ open class AquamanPageViewController: UIViewController, AMPageControllerDataSour
         })
         childScrollViewObservation = keyValueObservation
         
-        if let viewController = containView.viewController {
+        if let viewController = containView.viewControllerCC {
             pageController(self, didDisplay: viewController, forItemAt: index)
         }
     }
@@ -248,7 +248,7 @@ open class AquamanPageViewController: UIViewController, AMPageControllerDataSour
         contentStackView.arrangedSubviews.forEach({$0.removeFromSuperview()})
         clearMemoryCache()
         
-        containViews.forEach({$0.viewController?.clearFromParent()})
+        containViews.forEach({$0.viewControllerCC?.clearFromParent()})
         containViews.removeAll()
         
         countArray.removeAll()
@@ -330,7 +330,7 @@ open class AquamanPageViewController: UIViewController, AMPageControllerDataSour
         targetViewController.endAppearanceTransition()
         targetViewController.didMove(toParent: self)
         targetViewController.view.layoutSubviews()
-        containView.viewController = targetViewController
+        containView.viewControllerCC = targetViewController
         
         let scrollView = targetViewController.aquamanChildScrollView()
         scrollView.am_originOffset = scrollView.contentOffset
@@ -353,7 +353,7 @@ open class AquamanPageViewController: UIViewController, AMPageControllerDataSour
         
         let containView = containViews[index]
         guard containView.isEmpty == false
-            , let viewController = containView.viewController else {
+            , let viewController = containView.viewControllerCC else {
             return
         }
         viewController.clearFromParent()
