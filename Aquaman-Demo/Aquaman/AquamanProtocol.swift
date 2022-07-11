@@ -7,6 +7,9 @@ protocol AMPageControllerDataSource: AnyObject {
     func pageController(_ pageController: AquamanPageViewController, viewControllerAt index: Int) -> (UIViewController & AquamanChildViewController)
     func numberOfViewControllers(in pageController: AquamanPageViewController) -> Int
     func headerViewFor(_ pageController: AquamanPageViewController) -> UIView
+    
+    
+    
     func headerViewHeightFor(_ pageController: AquamanPageViewController) -> CGFloat
     func menuViewFor(_ pageController: AquamanPageViewController) -> UIView
     func menuViewHeightFor(_ pageController: AquamanPageViewController) -> CGFloat

@@ -387,13 +387,11 @@ open class AquamanPageViewController: UIViewController, AMPageControllerDataSour
     
     
     open func pageController(_ pageController: AquamanPageViewController, viewControllerAt index: Int) -> (UIViewController & AquamanChildViewController) {
-        assertionFailure("Sub-class must implement the AMPageControllerDataSource method")
-        return UIViewController() as! (UIViewController & AquamanChildViewController)
+        fatalError("Sub-class must implement the AMPageControllerDataSource method")
     }
     
     open func numberOfViewControllers(in pageController: AquamanPageViewController) -> Int {
-        assertionFailure("Sub-class must implement the AMPageControllerDataSource method")
-        return 0
+        fatalError("Sub-class must implement the AMPageControllerDataSource method")
     }
     
     open func headerViewFor(_ pageController: AquamanPageViewController) -> UIView {
