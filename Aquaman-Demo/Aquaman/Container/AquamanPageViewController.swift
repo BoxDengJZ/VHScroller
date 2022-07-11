@@ -432,3 +432,6 @@ open class AquamanPageViewController: UIViewController, AMPageControllerDataSour
 }
 
 
+// 手势当作功能一样，
+
+// 需要的时候，激活
